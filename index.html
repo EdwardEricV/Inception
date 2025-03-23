@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inception</title>
+    <link rel="stylesheet" href="dist/css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <h1>
+                <img class="header__logo" src="./dist/images/logos/pin.png" alt="Pin">
+            </h1>
+            <ul class="header__links">
+                <li class="header__links__item">
+                    <a href="#" class="button button--secondary">Outros Filmes</a>
+                </li>
+                <li class="header__links__item">
+                    <a href="#" class="button button--dark">Assista agora</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero__content">
+            <h1 class="hero__content__branding">
+                <h1 class="title--big">INCEPTION</h1>
+            </h1>
+            <h3 class="title--small">
+                Dom Cobb é um ladrão com a rara habilidade de roubar segredos do inconsciente, obtidos durante o estado de sono. Impedido de retornar para sua família, ele recebe a oportunidade de se redimir ao realizar uma tarefa aparentemente impossível: plantar uma ideia na mente do herdeiro de um império. Para realizar o crime perfeito, ele conta com a ajuda do parceiro Arthur, o discreto Eames e a arquiteta de sonhos Ariadne. Juntos, eles correm para que o inimigo não antecipe seus passos.
+            </h3>
+            <p class="text--small">
+                *O filme tem classificação indicativa para maiores de 14 anos.
+            </p>
+        </div>
+    </section>
+    <section class="shows">
+        <nav class="shows__tabs">
+            <button data-tab-button="em_breve" class="shows__tabs__button shows__tabs__button--is-active">
+                Atores
+            </button>
+            <button data-tab-button="populares" class="shows__tabs__button">
+                Premios
+            </button>
+            <button data-tab-button="star_plus" class="shows__tabs__button">
+                Imagens
+            </button>
+        </nav>
+        <ul data-tab-id="em_breve" class="shows__list shows__list--is-active">
+            <li class="shows__list__item">
+                <img src="./dist/images/atores/Leonardo.jpg" alt="Leonardo">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/atores/Cillian.jpg" alt="Cillian">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/atores/tom.jpg" alt="Tom">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/atores/Ken-Watanabe.jpg" alt="Ken">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/atores/Elliot-Page.png" alt="Elliot">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/atores/michael-caine.jpg" alt="Michael">
+            </li>
+        </ul>
+        <ul data-tab-id="populares" class="shows__list">
+            <li class="shows__list__item">
+                <img src="./dist/images/premios/bafta.jpg" alt="Bafta">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/premios/critics.jpg" alt="Critics">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/premios/oscar.jpg" alt="Oscar">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/premios/Empire.webp" alt="Empire">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/premios/saturn.png" alt="Saturn">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/premios/hugo.jpg" alt="Hugo">
+            </li>
+        </ul>
+        <ul data-tab-id="star_plus" class="shows__list">
+            <li class="shows__list__item">
+                <img src="./dist/images/fotos/1.jpg" alt="Foto">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/fotos/5.jpg" alt="Foto">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/fotos/3.webp" alt="Foto">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/fotos/4.jpg" alt="Foto">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/fotos/2.webp" alt="Foto">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/fotos/6.webp" alt="Foto">
+            </li>
+        </ul>
+    </section>
+    <section class="image-text-section">
+        <img src="./dist/images/diretor.png" alt="Imagem com TV, Computador, Tablet e Celular">
+        <div class="image-text-section__text_container">
+            <h2 class="title">Diretor</h2>
+            <p class="text--big">
+                <span>Christopher Nolan</span>: CBE é um diretor de cinema, roteirista e produtor britânico. Seus doze longas-metragens já arrecadaram o equivalente a mais de 6 bilhões de dólares em todo o mundo, fazendo do diretor um dos mais bem-sucedidos comercialmente da moderna Hollywood.
+            </p>
+        </div>
+    </section>
+    <section class="image-text-section">
+        <img src="./dist/images/compositor.jpg" alt="Imagem com TV, Computador, Tablet e Celular">
+        <div class="image-text-section__text_container">
+            <h2 class="title">Compositor</h2>
+            <p class="text--big">
+                <span>Hans Zimmer</span>: É um compositor e produtor musical alemão. É conhecido por seus trabalhos com trilha sonoras de vários filmes.
+            </p>
+        </div>
+    </section>
+    <section class="image-text-section image-text-section--image-full-width">
+        <picture>
+            <source media="(max-width: 768px)" srcset="./dist/images/fundo_rei_leao_celular.png">
+            <img src="./dist/images/logos/INCEPTION.jpg" alt="Imagem com Leão">
+        </picture>
+        <div class="image-text-section__text_container image-text-section--image-full-width__text_container">
+            <h2 class="title--big">Entenda melhor</h2>
+            <p class="title">
+                E se você ficasse preso em um sonho ou quisesse invadir os sonhos de outras pessoas para revelar segredos? Quais seriam as consequências de usar essa ferramenta?
+            </p>
+        </div>
+    </section>
+    <section class="faq">
+        <h2 class="title">Perguntas frequentes</h2>
+        <ul class="faq__questions">
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Onde assistir Inception?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    <p>No streaming</p>
+                    <p>Alugando</p>
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    O que acontece no final?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    <p>Isso não fica claro, tem varias opiniões que divergem</p>
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Vai ter sequencia?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    Não se sabe ao certo, a probabilidade maior é de que não tenha
+                </div>
+            </li>
+        </ul>
+    </section>
+    <footer class="footer">
+        <div class="footer__container">
+            <ul class="footer__links">
+                <li class="footer__links__item">
+                    <div class="language-selector">
+                        <img src="./dist/images/icones/globe.svg" alt="Globo do mundo">
+                        <select>
+                            <option>English</option>
+                            <option selected>Português</option>
+                        </select>
+                    </div>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Ajuda</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="" class="text--small">Sobre</a>
+                </li>
+            </ul>
+            <p class="text--small">
+                ® Todos os direitos reservados.
+            </p>
+        </div>        
+    </footer>
+    <script src="./dist/js/main.js"></script>
+</body>
+</html>
